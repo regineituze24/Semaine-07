@@ -10,7 +10,8 @@ body {
   background-size: cover;
   height: 100vh;
 
-  background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #2D1313;
+  background: linear-gradient(180deg, #ffffff 0%, rgba(255, 255, 255, 0) 100%),
+    #2d1313;
 }
 .navigation {
   height: 80px;
@@ -98,21 +99,22 @@ a {
   background: #f07a7a;
   border-radius: 20px;
 
-
-
-
-
-    animation: move 10s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    animation-name: move;
+  animation: move 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-name: move;
+}
+@keyframes move {
+  0% {
+    transform: translateX(500px) translateY(0px);
+    background-color: linear-gradient(
+        180deg,
+        #ffffff 0%,
+        rgba(255, 255, 255, 0) 100%
+      ),
+      #2d1313;
   }
-  @keyframes move{
-    0% {
-      transform: translateX(500px) translateY(0px);
-      background-color: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%), #2D1313;;
-    }
-  }
+}
 
 .logo {
   position: absolute;
@@ -131,6 +133,4 @@ a {
 }
 a:active {
   color: green;
-
 }
-button

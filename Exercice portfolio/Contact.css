@@ -97,44 +97,47 @@ a:active {
   color: black;
 }
 
-input[type='text'],
-select,
-textarea {
-  width: 100%; /* Full width */
-  padding: 12px; /* Some padding */
-  border: 1px solid #ccc; /* Gray border */
-  border-radius: 4px; /* Rounded borders */
-  box-sizing: border-box; /* Make sure that padding and width stays in place */
-  margin-top: 6px; /* Add a top margin */
-  margin-bottom: 16px; /* Bottom margin */
-  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
-}
+label,input,textarea{
+  display:block;
+  width: 80%;
+  padding: 12px;
+  color: bisque;
 
-/* Style the submit button with a specific background color etc */
-input[type='submit'] {
-  background-color: #4caf50;
-  color: white;
-  padding: 12px 20px;
+
+}
+.button{
+  border-radius: 15px;
   border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-/* When moving the mouse over the submit button, add a darker green color */
-input[type='submit']:hover {
+  padding: 5px ;
   background-color: #f07a7a;
-}
+  width: 550px;
+  height:40px;
+  left: 20px;
 
+}
+label{
+  font-family: poppins;
+  font-size: 30px;
+}
 /* Add a background color and some padding around the form */
 .cont {
   border-radius: 5px;
   background-color: #2d1313;
   padding: 20px;
   position: absolute;
-  width: 793px;
-  height: 550px;
+  width: 700px;
+  height: 500px;
   left: 60px;
   top: 120px;
 }
-.link {
+.link1 {
+  position: absolute;
+  left: 80%;
+  right: 87%;
+  top: 68.7%;
+  bottom: 23%;
+  font-size: 10%;
+  width: 70px;
+
+  background: #F07A7A;
 }
